@@ -1,0 +1,54 @@
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.menu-item {
+    float: left;
+}
+
+li.menu-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menu-item a:hover {
+    background-color: #444;
+}
+
+/* CSS cho bảng nhập liệu */
+table.input-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.input-table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* CSS cho bảng hiển thị dữ liệu đã nhập */
+table.display-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.display-table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
